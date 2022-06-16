@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8080/person
+
+###
+POST http://127.0.0.1:8080/add/person
+Content-Type: application/json
+
+{
+ "id": "2",
+ "name": "Raj",
+ "cars": [
+        "BMW",
+        "AUDI",
+        "HONDA",
+        "SUZUKI",
+        "JEEP",
+        "NSX"
+]
+}
+
