@@ -17,3 +17,14 @@ Content-Type: application/json
 ]
 }
 
+###
+POST http://127.0.0.1:8080/user
+Content-Type: application/json
+
+{
+  "name": "Ridham"
+}
+
+###
+GET http://127.0.0.1:8080/user/Mann
+Content-Type: application/json
