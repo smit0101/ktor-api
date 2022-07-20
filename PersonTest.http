@@ -28,3 +28,17 @@ Content-Type: application/json
 ###
 GET http://127.0.0.1:8080/user/Mann
 Content-Type: application/json
+
+###
+POST http://0.0.0.0:8080/add/user
+Content-Type: application/json
+
+{
+  "firstName" : "Smit",
+  "lastName" : "Kalkani",
+  "email" : "smitnash@gmail.com",
+  "password" : "9099850857"
+}
+
+###
+GET https://foodmenuapp-pgokju5beq-el.a.run.app/user/smitnash@gmail.com
