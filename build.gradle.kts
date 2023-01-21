@@ -48,9 +48,9 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-cio-jvm:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
-    implementation("io.ktor:ktor-server-sessions:$ktor_version")
     implementation("io.ktor:ktor-server-auth:$ktor_version")
     implementation("org.litote.kmongo:kmongo-coroutine:4.5.1")
+    implementation("io.ktor:ktor-server-sessions-jvm:2.1.3")
 
 
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
